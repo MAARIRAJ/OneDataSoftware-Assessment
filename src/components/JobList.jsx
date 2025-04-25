@@ -37,6 +37,7 @@ export default function JobList() {
       )
   );
 
+
   const indexOfLast = currentPage * jobsPerPage;
   const indexOfFirst = indexOfLast - jobsPerPage;
   const currentJobs = filteredJobs.slice(indexOfFirst, indexOfLast);
@@ -59,7 +60,7 @@ export default function JobList() {
       <InputGroup className="mb-3">
         <Form.Control
           type="text"
-          placeholder="Search by title, company, or skill"
+          placeholder="Search by title,company, skill"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />

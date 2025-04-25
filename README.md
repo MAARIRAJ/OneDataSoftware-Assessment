@@ -28,3 +28,4 @@ cd job-board
 npm install
 npm run dev
 "# OneDataSoftware-Assessment" 
+"# OnedataSoftware-Assessment" 
