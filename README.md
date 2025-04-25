@@ -24,8 +24,12 @@ A responsive job portal built with React (Vite + JSX), Redux, Formik, and Bootst
 
 # To run
 git clone https://github.com/yourusername/job-board.git
+
 cd job-board
+
 npm install
+
 npm run dev
+
 "# OneDataSoftware-Assessment" 
-"# OnedataSoftware-Assessment" 
+
